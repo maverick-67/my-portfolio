@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.7/css/line.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">j<span>o</span>ne</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            <li><a href="#about" class="nav__link ">About</a></li>
+            <li><a href="#services" class="nav__link ">Services</a></li>
+            <li><a href="#portfolio" class="nav__link ">Portfolio</a></li>
+            <li><a href="#contact" class="nav__link ">Contact</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+        <div class="nav__socials">
+          <a href="www.facebook.com"
+          target="blank"
+          class="nav__social-link">
+          <i class="uil uil-facebook-f"></i>
+        </a>
+        <a href="www.twitter.com"
+        target="blank"
+        class="nav__social-link">
+        <i class="uil uil-twitter"></i>
+      </a>
+      <a href="www.linkedin.com"
+      target="blank"
+      class="nav__social-link">
+      <i class="uil uil-linkedin"></i>
+    </a>
+    <a href="www.github.com"
+    target="blank"
+    class="nav__social-link">
+    <i class="uil uil-github"></i>
+  </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Let's Talk
+          </a>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome To My World</span>
+            <h1 class="home__title">
+              Hi, I'm Shubham.<span> Front-End Developer</span><br>based in India.
+            </h1>
+          </div>
+          <img src="assets/img/home.jpg" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+        <img src="assets/img/about.jpg" alt="" class="about__img" />
+        <div class="about__content">
+          <h2 class="section__title">About Me</h2>
+          <p class="about__description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In dolor
+            sunt, earum nam voluptas eligendi suscipit? Quaerat totam esse
+            ipsam labore maxime eos nam repellat quidem dolorum voluptates.
+            Iusto recusandae eum voluptatibus, temporibus ullam enim numquam,
+            delectus quo ipsa possimus itaque animi voluptatem quidem, dolor
+            mollitia vel repudiandae nesciunt culpa.
+          </p>
+          <section class="services section" id="services">
+        
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+              <span class="tabs__btn" data-target="#award">Award</span>
+              <span class="tabs__btn" data-target="#experience">Experience</span>
+              <span class="tabs__btn" data-target="#education">Education & Certification</span>
+            </div>
+
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>User experience design</span> - UI/UX 
+                    <span>Delight the User and make it work.</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Web and user interface design</span> - Development 
+                    <span>Websites, web experiences, ...</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="award">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Nineleaps Foundation Day</span> - Rising Star of the
+                    year<br>
+                    <span>2021 - 2022</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Nineleaps Foundation Day</span> - Rising Star of the
+                    year
+                    <span>2022 - 2023</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="experience">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Member of Technical Staff - III</span> - Nineleaps
+                    <span>Jun 2022 - May 2023</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Member of Technical Staff - II</span> - Nineleaps
+                    <span>Jun 2021 - Jun 2022</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Graduate Engineering Intern</span> - Nineleaps
+                    <span>Dec 2020 - Jun 2021</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>BTech in CS & IT</span> - ITER, Bhubaneswar, India
+                    <span>2020</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Member of Technical Staff - II</span> - Nineleaps
+                    <span>Jun 2021 - Jun 2022</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Graduate Engineering Intern</span> - Nineleaps
+                    <span>Dec 2020 - Jun 2021</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title">My Awesome Service</h2>
+        <p class="section__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque repudiandae qui modi quas autem vero, obcaecati amet dolore explicabo itaque.</p>
+
+        <div class="services__container container grid ">
+          <div class="services__item">
+            <i class="uil uil-rss-interface services__icon"></i>
+            <h3 class="services__title">Business Strategy</h3>
+            <p class="services__descriptiion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati consectetur distinctio, pariatur assumenda aspernatur fuga earum facilis! Optio, expedita!
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-layer-group services__icon"></i>
+            <h3 class="services__title">Website Design</h3>
+            <p class="services__descriptiion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati consectetur distinctio, pariatur assumenda aspernatur fuga earum facilis! Optio, expedita!
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-desktop services__icon"></i>
+            <h3 class="services__title">Web Development</h3>
+            <p class="services__descriptiion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati consectetur distinctio, pariatur assumenda aspernatur fuga earum facilis! Optio, expedita!
+            </p>
+          </div>
+
+        </div>
+      </section>
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Latest Project</h2>
+        <p class="section__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, soluta. Quibusdam, temporibus. Illum, quos ipsa?</p>
+
+        <div class="portfolio__container container grid">
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-1.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+                <h3 class="portfolio__title">Web Design</h3>
+                  <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero exercitationem at eum, sequi repudiandae cumque?</p>
+            </div>
+          </div>
+         
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-2.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Product Design</p>
+                <h3 class="portfolio__title">Web Design</h3>
+                  <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero exercitationem at eum, sequi repudiandae cumque?</p>
+            </div>
+          </div>
+          
+          <div class="portfolio__item">
+            <img src="assets/img/portfolio-3.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">App Development</p>
+                <h3 class="portfolio__title">Web Design</h3>
+                  <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero exercitationem at eum, sequi repudiandae cumque?</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Hire Me</h2>
+
+            <p class="contact__description">
+              I am available for freelance work. Connect with me via phone:
+              <a href="tel:+01912123456">01912-123456</a> or email:
+              <a href="mailto:admin@example.com">admin@example.com</a>
+            </p>
+
+            <form class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input type="text" name="name" placeholder="Your Name *"
+                class="contact__input"
+                id="contact-name">
+              </div>
+
+              <div class="contact__form-input">
+                <input type="email" name="email" placeholder="Your e-mail"
+                class="contact__input"
+                id="contact-email">
+              </div>
+
+              <div class="contact__form-input">
+                <input type="text" name="subject" placeholder="Write a Subject"
+                class="contact__input"
+                id="contact-subject">
+              </div>
+
+              <div class="contact__form-input">
+               <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Your Message"></textarea>
+              </div>
+
+              <input type="submit" value="Submit" class="btn">
+              <p class="error__message" id="error-message"></p>
+            </form>
+          </div>
+          <img src="assets/img/contact.jpg" alt="" class="contact__img">
+        </div>
+
+       
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">j<span>o</span>ne</a>
+        <div class="footer__socials">
+          <a href="www.facebook.com"
+          target="blank"
+          class="footer__social-link">
+          <i class="uil uil-facebook-f"></i>
+        </a>
+        <a href="www.twitter.com"
+        target="blank"
+        class="footer__social-link">
+        <i class="uil uil-twitter"></i>
+      </a>
+      <a href="www.linkedin.com"
+      target="blank"
+      class="footer__social-link">
+      <i class="uil uil-linkedin"></i>
+    </a>
+    <a href="www.github.com"
+    target="blank"
+    class="footer__social-link">
+    <i class="uil uil-github"></i>
+  </a>
+        </div>
+        <p class="footer__copyright">&copy; 2024. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-up scrollup__icon"></i>
+      </a>
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
